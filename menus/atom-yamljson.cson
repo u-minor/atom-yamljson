@@ -1,0 +1,19 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'YAML-JSON Converter'
+      'submenu': [
+        {
+          'label': 'Convert YAML to JSON'
+          'command': 'yaml2json:convert-yaml-to-json'
+        }
+        {
+          'label': 'Convert JSON to YAML'
+          'command': 'json2yaml:convert-json-to-yaml'
+        }
+      ]
+    ]
+  }
+]
