@@ -2,6 +2,8 @@
 
 A simple YAML to JSON, JSON to YAML converter.
 
+![AtomYamlJson Screenshot](https://raw.githubusercontent.com/u-minor/atom-yamljson/master/screenshot.gif)
+
 ## How to use
 
 ### From menu
