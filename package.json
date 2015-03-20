@@ -3,12 +3,6 @@
   "main": "./lib/atom-yamljson",
   "version": "0.2.2",
   "description": "Simple YAML<->JSON converter",
-  "activationCommands": {
-    "atom-workspace": [
-      "yaml2json:convert-yaml-to-json",
-      "json2yaml:convert-json-to-yaml"
-    ]
-  },
   "repository": "https://github.com/u-minor/atom-yamljson",
   "license": "MIT",
   "engines": {
