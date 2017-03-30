@@ -14,7 +14,7 @@ yamlToJson = ->
     return
 
   atom.workspace.open ''
-  .done (newEditor) ->
+  .then (newEditor) ->
     newEditor.setGrammar atom.grammars.selectGrammar('untitled.json')
     indent = atom.config.get 'atom-yamljson.jsonIndentSize'
     text = JSON.stringify obj, null, new Array(indent + 1).join(' ')
@@ -34,7 +34,7 @@ jsonToYaml = ->
     return
 
   atom.workspace.open ''
-  .done (newEditor) ->
+  .then (newEditor) ->
     newEditor.setGrammar atom.grammars.selectGrammar('untitled.yml')
     indent = atom.config.get 'atom-yamljson.yamlIndentSize'
     text = YAML.safeDump obj,
